@@ -1,0 +1,15 @@
+SQL SUM Function
+
+The SUM() function is an aggregate function that is used to find the sum (addition) of the given column or an expression. It can be applied on the numeric values or numeric columns only.
+
+Syntax:
+SELECT SUM(column_name)
+FROM table_name
+[WHERE condition];
+
+example:
+SELECT SUM(Salary) AS "Total Salary" FROM Employes;
+
+example:
+SELECT Dept_Id, SUM(Salary) AS "Department wise Total Salary" FROM Employes
+GROUP BY Dept_Id;

@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style3.css">
+  <title>My Website</title>
+  <style>
+    
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  
+  
+
+
+    
+  
+<div class="tut-content-show-content">
+    <p class="medium-heading">Procedure in PL/SQL</p>
+   <p class="tutcontent-description"> The PL/SQL stored procedure or simply a procedure is a PL/SQL block which performs one or more specific tasks. It is just like procedures in other programming languages.
+</p>
+   <p class="tutcontent-subheading"> The procedure contains a header and a body.</p>
+    
+   <p class="tutcontent-description"> <strong> Header: </strong>The header contains the name of the procedure and the parameters or variables passed to the procedure.</p>
+   <p class="tutcontent-description"> <strong> Body:</strong> The body contains a declaration section, execution section and exception section similar to a general PL/SQL block.</p>
+   <p class="tutcontent-subheading"> How to pass parameters in procedure:</p>
+   <p class="tutcontent-description"> When you want to create a procedure or function, you have to define parameters .There is three ways to pass parameters in procedure:</p>
+    
+   <p class="tutcontent-description"> <strong>IN parameters:</strong> The IN parameter can be referenced by the procedure or function. The value of the parameter cannot be overwritten by the procedure or the function.</p>
+   <p class="tutcontent-description"> OUT parameters: The OUT parameter cannot be referenced by the procedure or function, but the value of the parameter can be overwritten by the procedure or function.</p>
+   <p class="tutcontent-description"> <strong>INOUT parameters:</strong> The INOUT parameter can be referenced by the procedure or function and the value of the parameter can be overwritten by the procedure or function.      </p>
+
+<p class="tutcontent-subheading">Create procedure example</p>
+<p class="tutcontent-description">Table creation</p>
+   <p class="black-bgcode">create table user(id number(10) primary key,name varchar2(100));  </p>
+   <p class="tutcontent-description">Procedure Code</p>
+<pre class="black-bgcode">
+create or replace procedure "INSERTUSER"    
+(id IN NUMBER,    
+name IN VARCHAR2)    
+is    
+begin    
+insert into user values(id,name);    
+end;    
+</pre>
+<p class="tutcontent-description">Output :</p>
+   <p class="black-bgcode">Procedure created.</p>
+   <p class="tutcontent-subheading">PL/SQL program to call procedure</p>
+<pre class="black-bgcode">          
+BEGIN    
+insertuser(101,'Rahul');  
+dbms_output.put_line('record inserted successfully');    
+END;             
+</pre>
+<p class="tutcontent-description">Now, see the "USER" table, you will see one record is inserted.</p>
+
+<p class="tutcontent-subheading">Syntax for drop procedure</p>
+<pre class="black-bgcode">          
+DROP PROCEDURE procedure_name;            
+</pre>
+</div> </div></body></html>

@@ -1,0 +1,20 @@
+SQL Right Join:
+
+The RIGHT JOIN is the reverse of LEFT JOIN. The RIGHT JOIN query returns all the records from the right table and matching records from the left table.
+
+Here, the right side table is a table that comes to the right side or after the "RIGHT JOIN" phrase in the query, and the left table is a table that comes at the left side or before the "RIGHT JOIN" phrase.
+
+The RIGHT JOIN returns NULL for all non-matching records from the left table. In some databases, it is called RIGHT OUTER JOIN.
+
+syntax:
+SELECT column_name(s)
+FROM table1
+RIGHT JOIN table2
+ON table1.column_name = table2.column_name;
+
+example:
+SELECT dept.Dept_Id, dept.Name, emp.emp_id, emp.FirstName  
+FROM Employes emp 
+RIGHT JOIN Department dept
+ON emp.Dept_Id = dept.Dept_Id;
+

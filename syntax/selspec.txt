@@ -1,0 +1,7 @@
+Select Command (fetching specific coloumn)
+
+syntax:
+select colname1, colname2......... from <table name>;
+
+example:
+select name from student;

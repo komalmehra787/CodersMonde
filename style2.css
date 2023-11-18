@@ -1,0 +1,194 @@
+
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@400;600&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+margin: 0;
+padding:0;
+box-sizing: border-box;
+text-transform: uppercase;
+}
+
+.navbar{
+    display: flex;
+    background-color: #2b0245;
+    /* background:url(../images/gettyimages-106002476-612x612.jpg);
+    background-size:cover;
+    background-position: center; 
+
+.logo{
+    background: url(../images/bestlogo-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    border-radius:20px;
+    width: 100px;
+    height: 70px;
+    margin:4px;
+}
+nav{
+    display: flex;
+    width:100vw;
+    height:70px;
+    justify-content: right;
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-right: 20px;
+    padding: 12px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color:white;
+    font-weight: bolder;  
+    transition: all 0.4s ease;
+}
+nav ul li a:hover{
+    /* background-color: purple; */
+    /* font-size: large; 
+    font-weight: bolder;
+    color:#ffb83f;
+    transform: translate(0,-8px);
+    border-bottom: 2px solid purple;
+}
+.select{
+    background: black;
+    height:45px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.select a{
+    color: white;
+    padding:0.5% 15% ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: larger;
+
+    margin: 0.2%; 
+} */
+
+body{
+    background-image:linear-gradient( 220deg, #051c37b1 20%, #12cbebbb 85%), url(bg3.jpg);
+ 
+    background-size: cover;
+        overflow: hidden;
+        height : 100vh;
+        width:100%;
+        
+}
+.center{
+    /* background-image: url(../images/secondbgk.jpg); */ 
+   
+    height: 90vh;
+    display: flex;
+    width: 80%;
+}
+.sidebar{
+    height: 85vh;
+    margin-top: 8%;
+    width: 20vw;
+    overflow: scroll;
+    
+    }
+.sidebar a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: left;
+    letter-spacing: 1px;
+    padding: 2%;
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-bottom: 7%;
+font-size: medium;
+
+    border-radius: 100px;
+    color:white;
+    font-weight: bold;
+
+}
+.sidebar a:hover
+{
+    color: black;
+    background-color: white;
+     border-radius: 10px;
+}
+
+.sidebar h2{
+    color: gold;
+}
+.sidebar details summary{
+    color: gold;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+h1{
+    margin:2%;
+    color:gold;
+}
+pre{
+    margin: 1%;
+    letter-spacing: 1px;
+}
+h2{
+    color:rgb(226, 199, 45);
+    margin: 3%;
+}
+
+.submenu{
+    display: none;
+}
+.submenu ul li a{
+    margin-top:1%;
+    background-color:purple;
+    text-decoration: none;
+}
+nav ul li:hover .submenu
+{
+    display: block;
+    position:absolute;
+}
+nav ul li:hover .submenu ul li{
+    display: block;
+}
+.select a:nth-child(2):link
+{
+    background-color:orange
+}
+.content{
+    display: flex;
+justify-content: center;
+/* align-items: center; */
+}
+iframe
+{
+    background-color: whitesmoke;
+    width:60vw;
+    margin-left:1% ;
+    margin-top: 10%;
+    height: 90%;
+    margin: bottom 20px;
+}
+button{
+    color: black;
+    font-size: medium;
+    border-radius: 10px;
+    width: 80px;
+    text-decoration: none;
+    height: 45px;
+    font-weight: bold;
+    background-color: white;
+}
+button:hover{
+   background-color: blueviolet;
+   color:white;
+   font-weight: bolder;
+}

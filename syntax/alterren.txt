@@ -1,0 +1,9 @@
+Syntax to Alter Table (rename coloumn):
+
+example:
+ALTER TABLE table_name
+RENAME COLUMN old_name to new_name;
+
+example:
+alter table employee
+rename column id to emp_id;

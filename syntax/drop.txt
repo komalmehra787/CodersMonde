@@ -1,0 +1,7 @@
+Syntax for dropping a database:
+
+drop <database name>
+
+example:
+
+drop database college_students;

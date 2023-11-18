@@ -1,0 +1,18 @@
+Left Join Query:
+
+The LEFT JOIN is a type of inner join where it returns all the records from the left table and matching records from the right table. Here, the left table is a table that comes to the left side or before the "LEFT JOIN" phrase in the query, and the right table refers to a table that comes at the right side or after the "LEFT JOIN" phrase. It returns NULL for all non-matching records from the right table.
+
+In some databases, it is called LEFT OUTER JOIN.
+
+syntax:
+SELECT column_name(s)
+FROM table1
+LEFT JOIN table2
+ON table1.column_name = table2.column_name;
+
+example:
+SELECT emp.emp_id, emp.FirstName, dept.Dept_Id, dept.Name 
+FROM Employes emp 
+LEFT JOIN Department dept
+ON emp.Dept_Id = dept.Dept_Id;
+

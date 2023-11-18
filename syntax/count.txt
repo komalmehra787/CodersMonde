@@ -1,0 +1,37 @@
+SQL COUNT( ):
+
+The COUNT() function is an aggregate function that is used to find the number of values in the specified column excluding NULL values. It can be applied on numeric, character, or date values.
+
+Syntax:
+SELECT COUNT([ALL | DISTINCT] expression | column_name)
+FROM table_name
+[WHERE condition]
+[GROUP BY]    ;
+
+example:
+SELECT COUNT(FirstName) AS "Total" FROM Employes;
+
+example:
+SELECT COUNT(Email) AS "Total" FROM Employes;
+
+example:
+The COUNT() function can contain other functions such as Distinct:
+
+COUNT() 
+SELECT COUNT(Distinct(LastName)) AS "Total" FROM Employes;
+
+example:
+Use the COUNT(*) to count the total records in the table. The following query count the total records of the Employee table.
+
+SQL Script: COUNT(*) 
+SELECT COUNT(*) AS "Total Records" FROM Employes;
+
+example:
+The COUNT() is an aggregate function, so it can be used in Group By queries. The following query counts the number of employees in each department.
+
+example:
+ COUNT() with Group By :
+
+SELECT Dept_Id, COUNT(*) AS "Total Employees" 
+FROM Employes
+GROUP BY Dept_Id;

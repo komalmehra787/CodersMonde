@@ -1,0 +1,21 @@
+SQL MAX( ):
+
+The MAX() function is an aggregate function that is used to find the largest value in the given column or expression. It can be applied on the numeric, character, or date values.
+
+Syntax:
+SELECT MAX(column_name)
+FROM table_name
+[WHERE condition]
+[GROUP BY];
+
+example:
+SELECT MAX(Salary) AS "Highest Salary" FROM Employes;
+
+example:
+SELECT * FROM Employes
+WHERE Salary = (SELECT MAX(Salary) FROM Employes);
+
+example:
+SELECT Dept_Id, MAX(Salary) AS "Highest Salary" 
+FROM Employes
+GROUP BY Dept_Id;

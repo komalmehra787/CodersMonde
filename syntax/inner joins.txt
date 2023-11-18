@@ -1,0 +1,14 @@
+Inner joins:
+
+The INNER JOIN query is used to retrieve the matching records from two or more tables based on the specified condition.
+
+syntax:
+SELECT table1.column_name(s), table2.column_name(s)
+FROM table1
+INNER JOIN table2
+ON table1.column_name = table2.column_name;
+
+example:
+SELECT Employes.Emp_Id, Employes.FirstName, Employes.LastName, Department.Name FROM Employes 
+INNER JOIN Department
+ON Employes.Dept_Id = Department.Dept_Id;

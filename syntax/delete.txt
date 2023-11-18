@@ -1,0 +1,9 @@
+Delete Command
+
+The DELETE statement is used to delete existing records in a table.
+
+syntax:
+DELETE FROM table_name WHERE condition
+
+example:
+delete from student where name='preeti';

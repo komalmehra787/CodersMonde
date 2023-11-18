@@ -1,0 +1,17 @@
+PL/SQL Exit Loop (Basic Loop):
+
+PL/SQL exit loop is used when a set of statements is to be executed at least once before the termination of the loop. There must be an EXIT condition specified in the loop, otherwise the loop will get into an infinite number of iterations. After the occurrence of EXIT condition, the process exits the loop.
+
+Syntax of basic loop:
+
+LOOP  
+  Sequence of statements;  
+END LOOP;
+  
+Syntax of exit loop:
+
+LOOP   
+   statements;   
+   EXIT;   
+   {or EXIT WHEN condition;}  
+END LOOP;  

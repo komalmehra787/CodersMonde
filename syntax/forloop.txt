@@ -1,0 +1,21 @@
+PL/SQL FOR Loop
+
+PL/SQL for loop is used when when you want to execute a set of statements for a predetermined number of times. The loop is iterated between the start and end integer values. The counter is always incremented by 1 and once the counter reaches the value of end integer, the loop ends.
+
+Syntax of for loop:
+
+FOR counter IN initial_value .. final_value LOOP  
+  LOOP statements;   
+END LOOP;  
+initial_value : Start integer value
+final_value : End integer value
+
+PL/SQL For Loop Example
+
+
+BEGIN  
+FOR k IN 1..10 LOOP  
+-- note that k was not declared  
+DBMS_OUTPUT.PUT_LINE(k);  
+END LOOP;  
+END;   

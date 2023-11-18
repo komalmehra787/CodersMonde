@@ -1,0 +1,10 @@
+Creating table using Foriegn Key:
+
+example:
+CREATE TABLE Orders (
+    OrderID int NOT NULL,
+    OrderNumber int NOT NULL,
+    PersonID int,
+    PRIMARY KEY (OrderID),
+    FOREIGN KEY (PersonID) REFERENCES employee(ID)
+);

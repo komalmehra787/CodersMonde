@@ -1,0 +1,3 @@
+syntax for showing available databases:
+
+show databases;

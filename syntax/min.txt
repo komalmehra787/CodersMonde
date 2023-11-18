@@ -1,0 +1,24 @@
+SQL MIN():
+
+The MIN() function is an aggregate function that is used to find the smallest value of given column or expression. It can be applied on numeric, character or date values.
+
+Syntax:
+SELECT MIN(column_name)
+FROM table_name
+[WHERE condition]
+[GROUP BY];
+
+example:
+SELECT MIN(Salary) AS "Smallest Salary" FROM Employes;
+
+example:
+SELECT * FROM Employes 
+WHERE Salary = (SELECT MIN(Salary) FROM Employes);
+
+example:
+SELECT Dept_Id, MIN(Salary) AS "Smallest Salary" 
+FROM Employes
+GROUP BY Dept_Id;
+
+example:
+SELECT MIN(FirstName) AS "Smallest FirstName" FROM Employes;

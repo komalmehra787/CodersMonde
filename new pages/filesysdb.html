@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style3.css">
+  <title>My Website</title>
+  <style>
+    
+  </style>
+</head>
+
+<body>
+  <!-- Header --> <div class="tut-content-show-content">
+            <p class="medium-heading">DBMS vs File System</p>
+            <p class="small-heading"> File System Approach</p>
+            <p class="tutcontent-description">
+             File based systems were an early attempt to computerize the manual system. It is also called a traditional based approach in which a decentralized approach was taken where each department stored and controlled its own data with the help of a data processing specialist. The main role of a data processing specialist was to create the necessary computer file structures, and also manage the data within structures and design some application programs that create reports based on file data.
+ </p>
+ <img src="filesystem-dbms.svg" style="margin: 2% 0;" alt="">
+ 
+ <p class="tutcontent-subheading">
+ In the above figure:
+ </p><p class="tutcontent-description">
+ Consider an example of a student's file system. The student file will contain information regarding the student (i.e. roll no, student name, course etc.). Similarly, we have a subject file that contains information about the subject and the result file which contains the information regarding the result.</p>
+ <p class="tutcontent-description">
+ Some fields are duplicated in more than one file, which leads to <strong>data redundancy</strong>. So to overcome this problem, we need to create a centralized system, i.e. DBMS approach.</p>
+ 
+ 
+ <p class="tutcontent-subheading">DBMS: </p>
+ <p class="tutcontent-description">
+     A database approach is a well-organized collection of data that are related in a meaningful way which can be accessed by different users but stored only once in a system. The various operations performed by the DBMS system are: Insertion, deletion, selection, sorting etc.
+ </p>
+ 
+ 
+ <table class="tut-Table" border="1px" cellspacing="0">
+     <tr>
+         <th>Basis</th>
+         <th>DBMS Approach</th>
+         <th>File System Approach</th>
+     </tr>
+     <tr>
+         <td>Meaning</td>
+         <td>DBMS is a collection of data. In DBMS, the user is not required to write the procedures.</td>
+         <td>	The file system is a collection of data. In this system, the user has to write the procedures for managing the database.</td>
+     </tr>
+     <tr>
+         <td>Sharing of data</td>
+         <td>Due to the centralized approach, data sharing is easy.</td>
+         <td>	Data is distributed in many files, and it may be of different formats, so it isn't easy to share data.</td>
+     </tr>
+     <tr>
+         <td>Data Abstraction</td>
+         <td>	DBMS gives an abstract view of data that hides the details.</td>
+         <td>	The file system provides the detail of the data representation and storage of data.</td>
+     </tr>
+     <tr>
+         <td>Security and Protection</td>
+         <td>DBMS provides a good protection mechanism.</td>
+         <td>	It isn't easy to protect a file under the file system.</td>
+     </tr>
+     <tr>
+         <td>Recovery Mechanism </td>
+         <td>DBMS provides a crash recovery mechanism, i.e., DBMS protects the user from system failure.	</td>
+         <td>The file system doesn't have a crash mechanism, i.e., if the system crashes while entering some data, then the content of the file will be lost.</td>
+     </tr>
+     <tr>
+         <td>Manipulation Techniques</td>
+         <td>DBMS contains a wide variety of sophisticated techniques to store and retrieve the data.</td>
+         <td>	The file system can't efficiently store and retrieve the data.</td>
+     </tr>
+     <tr>
+         <td>Concurrency Problems</td>
+         <td>DBMS takes care of Concurrent access of data using some form of locking.</td>
+         <td>	In the File system, concurrent access has many problems like redirecting the file while deleting some information or updating some information.</td>
+     </tr>
+     <tr>
+         <td>Where to use</td>
+         <td>Database approach used in large systems which interrelate many files.</td>
+         <td>
+             File system approach used in large systems which interrelate many files.</td>
+     </tr>
+     <tr>
+         <td>Cost</td>
+         <td>The database system is expensive to design.
+         </td>
+         <td>	The file system approach is cheaper to design.</td>
+     </tr>
+     <tr>
+         <td>Data Redundancy and Inconsistency</td>
+         <td>Due to the centralization of the database, the problems of data redundancy and inconsistency are controlled.
+         </td>
+         <td>	In this, the files and application programs are created by different programmers so that there exists a lot of duplication of data which may lead to inconsistency.</td>
+     </tr>
+     
+ </table>            
+ 
+  
+  
+
+
+    
+  </div> </div></body></html>

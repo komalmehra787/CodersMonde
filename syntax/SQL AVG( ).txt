@@ -1,0 +1,15 @@
+SQL AVG( ):
+
+The AVG() is an aggregate function that is used to find out an average of the list of values of columns or an expression.
+The AVG() function is used with the numeric columns only.
+
+syntax:
+SELECT AVG(column_name)
+FROM table_name
+WHERE condition;
+
+example:
+SELECT AVG(Salary) AS AVERAGE FROM Employes;
+
+example
+SELECT Dept_Id, AVG(Salary) AS AVERAGE FROM Employes GROUP BY Dept_Id;

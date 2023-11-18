@@ -1,0 +1,9 @@
+Insert Command:
+
+INSERT is another most important data manipulation command in Structured Query Language, which allows users to insert data in database tables.
+
+syntax:
+INSERT INTO TABLE_NAME ( column_Name1 , column_Name2 , column_Name3 , .... column_NameN )  VALUES (value_1, value_2, value_3, .... value_N ) ;   
+
+example:
+insert into student (rollno, name , class, dob , age)values(100, 'komal' , 'bca', date '2003-06-20' , 19);

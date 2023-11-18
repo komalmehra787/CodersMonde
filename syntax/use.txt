@@ -1,0 +1,7 @@
+Syntax for use command:
+
+use <database name>;
+
+example:
+
+use college_students; 

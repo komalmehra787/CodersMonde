@@ -1,0 +1,9 @@
+Syntax to DROP a table:
+
+syntax:
+ DROP TABLE <table name>;
+
+example:
+drop table persons;
+
+

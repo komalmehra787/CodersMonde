@@ -1,0 +1,34 @@
+Select Command using WHERE Clause
+
+
+The following operators can be used in the WHERE clause:
+
+Operator	
+
+=	Equal	
+>	Greater than	
+<	Less than	
+>=	Greater than or equal	
+<=	Less than or equal	
+<>	Not equal. 
+BETWEEN 	Between a certain range	
+LIKE	             Search for a pattern	
+IN	                    To specify multiple possible values for a column
+
+syntax:
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+
+example:
+select name , dob
+from student
+where age<18;
+
+select name , dob
+from student
+where age>18;
+
+select name , dob
+from student
+where age=18;

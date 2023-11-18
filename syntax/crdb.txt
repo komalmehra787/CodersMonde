@@ -1,0 +1,7 @@
+Syntax for creating a new database:
+
+create database <database name>;
+
+example:
+ 
+create database college_students;

@@ -1,0 +1,9 @@
+Syntax to Alter Table (dropping coloumn):
+
+syntax:
+ALTER TABLE table_name
+DROP COLUMN column_name;
+
+example:
+ALTER TABLE employee
+DROP COLUMN Email;

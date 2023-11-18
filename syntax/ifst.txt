@@ -1,0 +1,53 @@
+PL/SQL IF Statement:
+
+Syntax for IF Statement:
+
+There are different syntaxes for the IF-THEN-ELSE statement.
+
+Syntax: (IF-THEN statement):
+
+IF condition   
+THEN   
+Statement: {It is executed when condition is true}  
+END IF;  
+This syntax is used when you want to execute statements only when condition is TRUE.
+
+Syntax: (IF-THEN-ELSE statement):
+
+IF condition   
+THEN  
+   {...statements to execute when condition is TRUE...}  
+ELSE  
+   {...statements to execute when condition is FALSE...}  
+END IF;   
+This syntax is used when you want to execute one set of statements when condition is TRUE or a different set of statements when condition is FALSE.
+
+Syntax: (IF-THEN-ELSIF statement):
+
+IF condition1   
+THEN  
+   {...statements to execute when condition1 is TRUE...}  
+ELSIF condition2   
+THEN  
+   {...statements to execute when condition2 is TRUE...}  
+END IF;  
+This syntax is used when you want to execute one set of statements when condition1 is TRUE or a different set of statements when condition2 is TRUE.
+
+Syntax: (IF-THEN-ELSIF-ELSE statement):
+
+IF condition1   
+THEN  
+   {...statements to execute when condition1 is TRUE...}  
+ELSIF condition2   
+THEN  
+   {...statements to execute when condition2 is TRUE...}  
+ELSE  
+   {...statements to execute when both condition1 and condition2 are FALSE...}  
+END IF;  
+
+It is the most advance syntax and used if you want to execute one set of statements when condition1 is TRUE, a different set of statement when condition2 is TRUE or a different set of statements when both the condition1 and condition2 are FALSE.
+
+When a condition is found to be TRUE, the IF-THEN-ELSE statement will execute the corresponding code and not check the conditions any further.
+
+If there no condition is met, the ELSE portion of the IF-THEN-ELSE statement will be executed.
+ELSIF and ELSE portions are optional.

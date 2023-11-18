@@ -1,0 +1,9 @@
+Syntax to Alter Table (adding coloumn):
+
+syntax:
+ALTER TABLE table_name
+ADD column_name datatype;
+
+example:
+ALTER TABLE employee
+ADD Email varchar(255);

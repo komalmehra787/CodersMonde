@@ -1,0 +1,21 @@
+PL/SQL While Loop:
+
+PL/SQL while loop is used when a set of statements has to be executed as long as a condition is true, the While loop is used. The condition is decided at the beginning of each iteration and continues until the condition becomes false.
+
+Syntax of while loop:
+
+WHILE <condition>   
+ LOOP statements;   
+END LOOP;  
+
+Example of PL/SQL While Loop
+Let's see a simple example of PL/SQL WHILE loop.
+
+DECLARE  
+i INTEGER := 1;  
+BEGIN  
+WHILE i <= 10 LOOP  
+DBMS_OUTPUT.PUT_LINE(i);  
+i := i+1;  
+END LOOP;  
+END;  

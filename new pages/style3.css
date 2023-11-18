@@ -1,0 +1,57 @@
+.tut-content-show-content a {
+    color: #0556F3;
+    text-decoration: none;
+}
+    .tut-content-show-content{
+        width: 100%;
+        }
+        .tut-content-show-content{
+            width: 80%;
+        }
+        .medium-heading{
+            font-weight: 700;
+            color: #25265e;
+            font-size: 2.3rem;
+            margin: 2% 0;
+        }
+        .medium-heading{
+            font-size: 2.1rem;
+        }
+        .tutcontent-description{
+            margin: 3% 0;
+            line-height: 30px;
+            color: #25265e;
+            font-size: 1.2rem;
+        }
+        .tutcontent-description{
+            font-size: 1.17rem;
+        }
+        .small-heading{
+            font-size: 1.6rem;
+                font-weight: 700;
+                color: #25265e;
+                padding-bottom: 1%;
+                margin-bottom: 3%;
+            }
+            pre.txtbox{
+                border-left: 6px solid #0556f3;
+                display: inline-block;
+                padding: 2%;
+                margin: 2% 0;
+                background: aliceblue;
+            }
+            .tutcontent-subheading, ol.qna-container li {
+                font-weight: 500;
+                line-height: 30px;
+                font-size: 1.3rem;
+                color: #25265E;
+                margin: 3% 0;
+            }
+            p.black-bgcode,pre.black-bgcode{
+                background:#000;
+                color: #fff;
+                padding: 1%;
+                margin:2% 0;
+                box-shadow: 0 6px 8px rgba(0,0,0,0.05);
+              }
+            
